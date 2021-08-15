@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+
+<div class="jumbotron info-section">
+    <h1 class="display-4">Weather Updates</h1>
+    <p class="lead"><img src=<%=varimg%>></p>
+    <h2>Weather is predicted to be as "<%= varweather%>" at <%=varplace%>.</h2>
+  
+    <h2>It's <%= vartemp%>°C at <%=varplace%>.</h2>
+    <hr class="my-4">
+    <p class="lead">
+        <form action="/">
+            <button class="btn btn-light btn-lg">Go Back</button>
+        </form>
+    </p>
+</div>
+
+
+</body>
+
+</html>

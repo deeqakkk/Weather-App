@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+body{
+    background-color: mediumseagreen;
+}
+h1 {
+    font-family: 'Bree Serif', serif;
+  color: Red;
+  font-size: 4rem;
+}
+form#form1{
+  margin: 4rem auto 0 auto;
+  text-align: center;
+  align-items: center;
+  width: 500px;
+}
+
+.big-heading{text-align: center;}
+img{
+    height: 200px;
+    width:200px;
+    border-radius: 100%;
+    margin-right: 2rem;
+    box-shadow: 2px 2px  red;
+   
+
+}
+.row{
+    margin-top: 2rem;
+
+}
+.container{
+    margin-left:25.3rem;
+    width: auto;
+}
+
+.info-section{
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-top:4rem;
+}
